@@ -1,6 +1,8 @@
 {
   "name": "comp.se.200-test-project",
   "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
