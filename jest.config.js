@@ -5,14 +5,24 @@
 
 /** @type {import('jest').Config} */
 const config = {
-  // TODO: Enable coverage
-  collectCoverage: false,
+  collectCoverage: true,
+  /*   coverageThreshold: {
+    global: {
+      branches: 50,
+      functions: 50,
+      lines: 50,
+      statements: 50
+    }
+  }, */
+  coveragePathIgnorePatterns: ['src/.internal/'],
+  // The directory where Jest should output its coverage files
+  coverageDirectory: 'coverage',
+
+  // Automatically clear mock calls, instances, contexts and results before every test
+  // clearMocks: true
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
   // collectCoverageFrom: undefined,
-
-  // The directory where Jest should output its coverage files
-  coverageDirectory: 'coverage',
 
   // All imported modules in your tests should be mocked automatically
   // automock: false,
@@ -22,9 +32,6 @@ const config = {
 
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "C:\\Users\\Janzk\\AppData\\Local\\Temp\\jest",
-
-  // Automatically clear mock calls, instances, contexts and results before every test
-  clearMocks: true
 
   // Indicates whether the coverage information should be collected while executing the test
 
