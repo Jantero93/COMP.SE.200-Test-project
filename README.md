@@ -1,1 +1,5 @@
-[![Coverage Status](https://coveralls.io/repos/github/Jantero93/COMP.SE.200-Test-project/badge.png?branch=dev)](https://coveralls.io/github/Jantero93/COMP.SE.200-Test-project?branch=dev)
+ | Branch | Coverage                                                                                                                                                                                       |
+ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+ | main   | [![Coverage Status](https://coveralls.io/repos/github/Jantero93/COMP.SE.200-Test-project/badge.png?branch=main)](https://coveralls.io/github/Jantero93/COMP.SE.200-Test-project?branch=main)   |
+ | stage  | [![Coverage Status](https://coveralls.io/repos/github/Jantero93/COMP.SE.200-Test-project/badge.png?branch=stage)](https://coveralls.io/github/Jantero93/COMP.SE.200-Test-project?branch=stage) |
+ | dev    | [![Coverage Status](https://coveralls.io/repos/github/Jantero93/COMP.SE.200-Test-project/badge.png?branch=dev)](https://coveralls.io/github/Jantero93/COMP.SE.200-Test-project?branch=dev)     |
