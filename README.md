@@ -1,1 +1,1 @@
-[![Coverage Status](https://coveralls.io/repos/github/Jantero93/COMP.SE.200-Test-project/badge.svg?branch=main)](https://coveralls.io/github/Jantero93/COMP.SE.200-Test-project?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/Jantero93/COMP.SE.200-Test-project/badge.png?branch=dev)](https://coveralls.io/github/Jantero93/COMP.SE.200-Test-project?branch=dev)

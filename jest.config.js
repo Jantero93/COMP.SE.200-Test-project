@@ -17,6 +17,7 @@ const config = {
   coveragePathIgnorePatterns: ['src/.internal/'],
   // The directory where Jest should output its coverage files
   coverageDirectory: 'coverage',
+  bail: false
 
   // Automatically clear mock calls, instances, contexts and results before every test
   // clearMocks: true
