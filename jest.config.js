@@ -5,7 +5,6 @@
 
 /** @type {import('jest').Config} */
 const config = {
-  // collectCoverage: true,
   /*   coverageThreshold: {
     global: {
       branches: 50,
@@ -15,8 +14,9 @@ const config = {
     }
   }, */
   coveragePathIgnorePatterns: ['src/.internal/'],
-  // The directory where Jest should output its coverage files
-  coverageDirectory: 'coverage'
+  coverageDirectory: 'coverage',
+  coverageReporters: ['html', 'json', 'lcov', 'text']
+
   //bail: false
 
   // Automatically clear mock calls, instances, contexts and results before every test
